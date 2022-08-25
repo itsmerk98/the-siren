@@ -1,0 +1,17 @@
+@import './variable.scss';
+
+.story-title {
+    margin: 10px 0;
+    margin-top: 0;
+    & .title-1, .title-2{
+        font-size: 32px;
+        color: $font-color;
+    }
+}
+.story-text{
+    margin: 25px 0;
+    & p{
+        color: $light-font;
+        font-size: 13px;
+    }
+}

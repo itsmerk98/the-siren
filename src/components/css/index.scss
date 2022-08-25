@@ -1,0 +1,25 @@
+@import './variable.scss';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+  & body{
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+}
+#root {
+  width: 90%;
+  margin: auto;
+}
+
+
+

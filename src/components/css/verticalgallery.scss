@@ -1,0 +1,28 @@
+@import '../css/variable.scss';
+.gallery-profile-img{
+    width: 100%;
+    height: 452px;
+    background-image: url(../images/earth-uWvl0xuVScI-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    & .txt-con{
+        display: flex;
+        margin:  auto 0;
+        margin-top: 180px;
+        justify-content: space-around;
+        align-items: center;
+        & .heading-title{
+            font-size: 28px;
+            color: $seconder-color;
+        }
+    }
+    & .gallery-date{
+        margin: auto;
+        margin-top: 0;
+        color: $seconder-color;
+        font-weight: 800;
+    }
+}

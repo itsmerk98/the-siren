@@ -1,0 +1,53 @@
+@import '../css/variable.scss';
+
+.latest {
+    margin-bottom: 80px;
+    & .latest-heading{
+        margin: 80px 0;
+        & p {
+            font-size: 40px;
+        }
+        & hr {
+            width: 90px;
+            height: 3px;
+            border: none;
+            background-color: $pnik-border;
+        }
+    }
+    & .latest-travel{
+        // background-color: $pnik-border;
+        display: flex;
+        justify-content: space-between;
+        & .card{
+            // width: 30%;
+            background: #FCFCFC 0% 0% no-repeat padding-box;
+            box-shadow: 0px 5px 35px #00000008;
+            border-radius: 7px;
+            & .card-img-face{
+                height: 200px;
+                background-image: url(../images/theodor-lundqvist-WHhbYArwFt8-unsplash.jpg);
+                background-position: center;
+                background-size: cover;
+                border-radius: 7px 7px 0 0;
+            }
+        }
+        & .card-mg{
+            margin: 0 10px;
+        }
+        & .card-contant {
+            margin: 10px;
+            & .card-title {
+                & p {
+                    font-size: 22px;
+                }
+            }
+            & .card-subtitle {
+                margin-top: 10px;
+                & p{
+                    font-size: 14px;
+                    color: $light-font;
+                }
+            }
+        }
+    }
+}

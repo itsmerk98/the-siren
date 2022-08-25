@@ -1,0 +1,10 @@
+@import './variable.scss';
+
+.footer{
+    padding: 10px;
+    background-color: $footer-color;
+
+    & {
+        padding-left: 20px;
+    }
+}

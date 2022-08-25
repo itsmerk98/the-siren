@@ -1,0 +1,21 @@
+@import './variable.scss';
+
+
+.button-sec{
+    margin: 55px;
+    & button{
+        font-size: 15px;
+        background-color: $seconder-color;
+        border: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: $link-color;
+        & img{
+            margin-left: 10px;
+        }
+    }
+    & button:hover{
+        font-size: 15.5px;
+        color: $dark-gray-font;
+    }
+}

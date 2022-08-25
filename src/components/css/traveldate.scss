@@ -1,0 +1,12 @@
+@import '../css/variable.scss';
+.travel-sec{
+    //margin: 25px 0 0 0;
+    & .travel{
+        margin-right: 5px;
+        font-size: 14px;
+    }
+    & .traveldate{
+        color: $light-font;
+        font-size: 13px;
+    }
+}

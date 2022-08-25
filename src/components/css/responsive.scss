@@ -1,0 +1,224 @@
+@media only screen and (max-width: 825px) {
+    .main {
+        height: 400px !important;
+
+        & .gallery-img-1 {
+
+            & .title {
+                font-size: 1.4rem !important;
+            }
+
+            & .travel-date {
+                font-size: 0.9rem;
+            }
+        }
+
+        & .gallery-img-2 {
+
+            & .img-box-1,
+            .img-box-2 {
+
+                & .doomed {
+                    font-size: 1rem !important;
+                }
+
+                & .travel-date {
+                    font-size: 12px !important;
+                }
+            }
+        }
+    }
+
+    .latest {
+        margin-bottom: 40px;
+        & .latest-heading {
+            margin: 40px 0;
+            & p {
+                font-size: 2rem;
+            }
+        }
+        & .latest-travel {
+            flex-direction: column;
+        }
+        & .card-mg {
+            margin: 0px;
+        }
+        & .card-contant {
+            margin: 10px;
+            & .card-title {
+                & p {
+                    font-size: 1.5rem;
+                }
+            }
+
+            & .card-subtitle {
+                & p {
+                    font-size: 0.9rem;
+                }
+            }
+        }
+    }
+
+    .articles {
+        margin-bottom: 40px;
+        & .latest-heading {
+            margin: 25px 0;
+    
+            & p {
+                font-size: 2.1rem ;
+            }
+        }
+
+        & .articles-sec {
+            flex-direction: column;
+            & .articles-sec-leftside{
+                width: 100%;
+            }
+    
+            & .articles-sec-rightside{
+                width: 100%;
+                & .advertisement{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .stories-sec{
+        padding: 0px !important;
+        flex-wrap: wrap-reverse;
+        & .story{
+            margin-bottom: 10px;
+        }
+        & .border{
+            border: none !important;
+        }
+    }
+
+
+}
+
+
+@media only screen and (max-width: 725px){
+    .header{
+        & .brand{
+            width: 100%;
+            display: flex !important;
+            align-items: center;
+            justify-content: space-between;
+            & .brand-logo{
+                & .the{
+                    font-size: 18px !important;
+                }
+                & .siren{
+                    font-size: 34px !important;
+                }
+            }
+            & .dropdown{
+                display: inline-block !important;
+            }
+    
+        }
+        & .nav-bar{
+            display: none;
+        }
+        & .active{
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 60px;
+            width: 90%;
+            z-index: 1;
+            background-color: $seconder-color;
+        }
+        & .inactive{
+            display: none;
+        }
+    
+    }
+    .home-gallery{
+        margin: 0 !important;
+    }
+}
+
+
+@media only screen and (max-width: 520px) {
+    .main {
+        height: 250px !important;
+        & .home-gallery{
+            margin: 0 !important;
+            & .gallery-img-1 {
+                width: 100% !important;
+            }
+            & .gallery-img-2 {
+                display: none !important;
+            }
+        } 
+    }
+
+
+    .articles {
+        & .latest-heading {
+            
+            & p {
+                font-size: 2rem;
+            }
+            
+        }
+        
+        & .articles-sec {
+            & .articles-sec-leftside{
+                & .component-main-box{
+                    & .img-box{
+                        margin: 15px;
+                    }
+                    & .content-box{
+                        margin: 15px 0;
+                        & .title-box{
+                            & .title-1{
+                                font-size: 1rem !important;
+                            }
+                        }
+                        & .subtitle{
+                            width: auto;
+                            height: 60px;
+                            font-size: 0.8rem !important;
+                            overflow: hidden;
+                            text-align: justify;
+                        }
+                    }
+                }
+                & .gallery-profile-img{
+                    display: none !important;
+                }
+            }
+    
+            & .articles-sec-rightside{
+                width: 100%;
+                & .advertisement{
+                    display: none;
+                }
+            }
+        }
+    }
+
+
+    .stories-sec{
+        & .story{
+            & .story-title{
+                & .title-1{
+                    font-size: 19px !important;
+                    text-align: justify;
+
+                }
+            }
+            & .story-text{
+                font-size: 12px !important;
+                margin: 10px 0 !important;
+                text-align: justify;
+            }
+        }
+    }
+
+}

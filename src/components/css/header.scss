@@ -1,0 +1,68 @@
+@import './variable.scss';
+
+.header {
+    color: $font-color;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    & .brand {
+        margin: 10px auto;
+        color: $font-color;
+
+        & .brand-logo {
+            display: flex;
+            align-items: center;
+
+            & .the {
+                display: inline-block;
+                font-size: 32px;
+                -webkit-transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                transform: rotate(-90deg);
+            }
+
+            & .siren {
+                font-size: 71px;
+                font-weight: 900;
+            }
+        }
+
+        & .dropdown {
+            display: none;
+
+            & .dropdown-btn {
+                border: none;
+                background-color: $seconder-color;
+                & img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 5px;
+                }
+            }
+        }
+
+    }
+
+    & .nav-bar {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: auto;
+        border-bottom: 2px solid $light-border;
+        flex-grow: 1;
+    }
+    
+
+}
+
+.dropdown-mune{
+
+    & span {
+        width: 15%;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
