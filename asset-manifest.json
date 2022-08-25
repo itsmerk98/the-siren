@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/the-siren/static/css/main.64d926b1.css",
-    "main.js": "/the-siren/static/js/main.c2e386c1.js",
+    "main.js": "/the-siren/static/js/main.bd563475.js",
     "static/media/theodor-lundqvist-WHhbYArwFt8-unsplash.jpg": "/the-siren/static/media/theodor-lundqvist-WHhbYArwFt8-unsplash.888ed5fb904598241a82.jpg",
     "static/media/gabriel-OgM4RKdr2kY-unsplash.jpg": "/the-siren/static/media/gabriel-OgM4RKdr2kY-unsplash.57b6efe3d6570474697f.jpg",
     "static/media/earth-uWvl0xuVScI-unsplash.jpg": "/the-siren/static/media/earth-uWvl0xuVScI-unsplash.17d965e756aaea369f2c.jpg",
@@ -13,10 +13,10 @@
     "static/media/arrow.svg": "/the-siren/static/media/arrow.96127461dbc643d65bf3657380499f0d.svg",
     "static/media/arrow-1.svg": "/the-siren/static/media/arrow-1.28855ee752d7c31d6c32469ff085a863.svg",
     "main.64d926b1.css.map": "/the-siren/static/css/main.64d926b1.css.map",
-    "main.c2e386c1.js.map": "/the-siren/static/js/main.c2e386c1.js.map"
+    "main.bd563475.js.map": "/the-siren/static/js/main.bd563475.js.map"
   },
   "entrypoints": [
     "static/css/main.64d926b1.css",
-    "static/js/main.c2e386c1.js"
+    "static/js/main.bd563475.js"
   ]
 }
