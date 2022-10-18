@@ -1,8 +1,8 @@
 import TravelDate from "./TravelDate";
 import './css/story.scss'
-const Story = () => {
+const Story = (props) => {
     return (
-        <>
+        <div className={`story ${props.className}`} >
             <div className="story-title">
                 <p className="title-1">Catch waves with an adventure guide</p>
             </div>
@@ -12,7 +12,7 @@ const Story = () => {
             <div className="story-time">
                 <TravelDate />
             </div>
-        </>
+        </div>
     )
 }
 export default Story;

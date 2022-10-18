@@ -23,9 +23,11 @@
             background: #FCFCFC 0% 0% no-repeat padding-box;
             box-shadow: 0px 5px 35px #00000008;
             border-radius: 7px;
+            flex: 1;
+            
             & .card-img-face{
                 height: 200px;
-                background-image: url(../images/theodor-lundqvist-WHhbYArwFt8-unsplash.jpg);
+                //background-image: url(./images/theodor-lundqvist-WHhbYArwFt8-unsplash.jpg);
                 background-position: center;
                 background-size: cover;
                 border-radius: 7px 7px 0 0;

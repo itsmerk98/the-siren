@@ -1,9 +1,9 @@
 import "./css/advertisement.scss";
 
-const Advertisement = () => {
+const Advertisement = (props) => {
     return (
         <>
-            <div className="advertisement">
+            <div className="advertisement" style={{display: `${props.display}`}}>
                 <h2> Advertisement </h2>
             </div>
         </>

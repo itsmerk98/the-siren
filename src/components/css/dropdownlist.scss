@@ -16,6 +16,11 @@
     }
     & .mune-link:hover{
         color: black;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-decoration: underline rgb(252, 119, 119)  2px;
+        // transition-delay: s;
+        transition-duration: .2s;
     }
     
 }

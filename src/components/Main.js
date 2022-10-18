@@ -6,7 +6,7 @@ const Main = () => {
     <>
       <div className="main">
         <div className="home-gallery">
-          <div className="gallery-img-1">
+          <div className="gallery-img-1" style={{backgroundimage: `url(./images/earth-uWvl0xuVScI-unsplash.jpg)`}}>
             <p className="title">Title of vertical gallery</p>
             <p className="travel-date">Travel / August 21 2022</p>
           </div>

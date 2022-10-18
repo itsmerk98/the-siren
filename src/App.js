@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header.js';
 import Footer from "./components/Footer.js";
 import Home from './components/home/Home.js';
@@ -8,24 +8,31 @@ import Hollywood from './components/hollywood/Hollywood.js';
 import Fitness from './components/fiteness/Fiteness.js';
 import Food from './components/food/food.js';
 import Technology from './components/technology/Technology.js';
+// import Article from './pages/Article.js';
 
 import './components/css/app.scss';
+import Login from './pages/Login.js';
+import SignUp from './pages/SignUp.js';
+import Blog from './pages/Blog.js';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Header />
-        <Routes>
-          <Route path={'/'} element={<Home />} exact />
-          <Route path='/bollywood' element={<Bollywood />} />
-          <Route path='/technology' element={<Technology />} />
-          <Route path='/hollywood' element={<Hollywood />} />
-          <Route path='/fitness' element={<Fitness />} />
-          <Route path='/food' element={<Food />} />
-          <Route element={<Error />} />
-        </Routes>
+      <Routes>
+        <Route path={'/the-siren'} element={<Home />} exact />
+        <Route path='/bollywood' element={<Bollywood />} exact/>
+        <Route path='/technology' element={<Technology />} exact/>
+        <Route path='/hollywood' element={<Hollywood />} exact/>
+        <Route path='/fitness' element={<Fitness />} exact/>
+        <Route path='/food' element={<Food />} exact/>
+        <Route path='/login' element={<Login />} exact />
+        <Route path='/signup' element={<SignUp />} exact />
+        <Route path='/blog' element={<Blog />} /> 
+        <Route element={<Error />} />
+      </Routes>
       <Footer />
-    </BrowserRouter>
+    </Router>
   );
 }
 

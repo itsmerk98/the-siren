@@ -1,17 +1,30 @@
 @import './variable.scss';
 
-.story-title {
-    margin: 10px 0;
-    margin-top: 0;
-    & .title-1, .title-2{
-        font-size: 32px;
-        color: $font-color;
+.story {
+    padding: 20px;
+
+    & .story-title {
+        margin: 10px 0;
+        margin-top: 0;
+
+        & .title-1,
+        .title-2 {
+            font-size: 32px;
+            color: $font-color;
+        }
+    }
+
+    & .story-text {
+        margin: 25px 0;
+
+        & p {
+            color: $light-font;
+            font-size: 13px;
+        }
     }
 }
-.story-text{
-    margin: 25px 0;
-    & p{
-        color: $light-font;
-        font-size: 13px;
-    }
+
+.border {
+    border-left: 2px solid $light-border;
+    border-right: 2px solid $light-border;
 }

@@ -1,0 +1,52 @@
+.blog_cantainar {
+
+    & .blog-sec {
+        width: 55%;
+        margin: auto;
+
+        & .bloger {
+            display: flex;
+            margin: 20px;
+
+
+            & .blogger_socil_icons {
+                display: flex;
+                & .socil_icon {
+                    margin: auto;
+                    margin-right: 10px;
+                    width: 50px;
+                    height: 50px;
+                    background-color: rgb(167, 127, 127);
+                    border-radius: 50%;
+
+                    text-align: center;
+
+                }
+            }
+        }
+        & .image{
+            height: 350px;
+        }
+
+        & .blog_writer{
+            display: flex;
+        }
+    }
+}
+
+
+.blog_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+
+    & img {}
+}
+
+.bloger_detail {
+    flex: 1;
+
+    margin: auto;
+    margin-left: 20px;
+}

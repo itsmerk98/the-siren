@@ -1,10 +1,10 @@
 import './css/traveldate.scss';
-const TravelDate = () => {
+const TravelDate = (props) => {
     return (
         <>
             <div className="travel-sec">
                 <span className="travel">Travel </span>
-                <span className="traveldate">/ August 21 2022</span>
+                <span className="traveldate">{props.date}</span>
             </div>
         
         </>

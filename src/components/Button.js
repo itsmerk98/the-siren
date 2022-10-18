@@ -1,6 +1,6 @@
 
 import './css/button.scss'
-import RightArrow from './images/arrow-1.svg'
+// import RightArrow from './images/arrow-1.svg'
 
 const Button = () => {
     return (
@@ -8,7 +8,7 @@ const Button = () => {
             <div className="button-sec">
                 <button>
                     View more 
-                    <img src={ RightArrow } alt="Error" />
+                    <img src="./images/arrow-1.svg" alt="Error" />
                 </button>
             </div>
         </>
